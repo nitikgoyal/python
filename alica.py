@@ -52,9 +52,6 @@ def takeCommand():
 
 
 
-
-
-
 if __name__ == "__main__":
     wishMe()
     while True:
@@ -98,8 +95,7 @@ if __name__ == "__main__":
             stmsg = ['Chilling.....','fine sir....','In your service sir....']
             speak(random.choice(stmsg))
 
-        elif 'NAMASTEE' in query:
-            speak("NAMASTEE KIDDAA....")
+      
 
                  
        
